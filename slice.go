@@ -24,7 +24,7 @@ func main() {
 
 	//slice1[0] = "Diubah"
 	//fmt.Println(months)
-
+	//
 	//months[5] = "Diubah"
 	//fmt.Println(slice1)
 
