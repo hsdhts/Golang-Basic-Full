@@ -12,4 +12,7 @@ func main() {
 	} else {
 		fmt.Println("Error: ", err.Error())
 	}
+
+	valueInt, _ := strconv.Atoi("10000")
+	fmt.Println(valueInt)
 }
