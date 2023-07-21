@@ -9,7 +9,7 @@ type Man struct {
 func (man *Man) Married() {
 	man.Name = "Mr " + man.Name
 }
-
+	
 func main() {
 	husada := Man{"Husada"}
 	husada.Married()
