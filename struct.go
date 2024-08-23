@@ -1,51 +1,28 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-type Data struct {
+type Customer struct {
 	Name, Address string
-	Age           int
+	age           int64
 }
 
-func (customer Data) sayHi(name string) {
-	fmt.Println("Hello", name, "My name is", customer.Name)
-}
-
-func (a Data) sayHuu() {
-	fmt.Println("Huuu from", a.Name)
+func (customer Customer) sayAja(name string) {
+	fmt.Println("Hello", name, "my name is", customer.Name, "umur saya", customer.age, "tahun")
 }
 
 func main() {
+	var customer Customer
+	customer.Name = "Husada"
+	customer.Address = "Palembang"
+	customer.age = 21
 
-	var husada Data
-	husada.Name = " Husada"
-	husada.Address = "Palembang"
-	husada.Age = 21
+	fmt.Println(customer)
 
-	husada.sayHi("Joko")
-	husada.sayHuu()
-	//sayHi(husada, "Joko")
+	//masukkan kedalam variable
+	budi := Customer{"Budi", "US", 22}
+	fmt.Println(budi)
 
-	//var husada Data
-	//
-	//husada.Name = "Husada"
-	//husada.Address = "Palembang"
-	//husada.Age = 21
-	//
-	//fmt.Println(husada)
-	//
-	//joko := Data{
-	//	Name:    "Joko",
-	//	Address: "Cirebon",
-	//	Age:     20,
-	//}
-	//
-	//fmt.Println(joko)
-	//
-	//budi := Data{"Budi", "Medan", 19}
-	//
-	//fmt.Println(budi)
-
+	//Struct Method
+	budi.sayAja("Cindy")
 }

@@ -13,12 +13,11 @@ func NewMap(name string) map[string]string {
 }
 
 func main() {
-	var person map[string]string = NewMap("Husada")
-	//person := NewMap("HUSADA")
-	if person == nil {
-		fmt.Println("Data kosong")
-	} else {
-		fmt.Println(person)
-	}
+	var person map[string]string = NewMap("husada")
 
+	if person == nil {
+		fmt.Println("data masih kosong")
+	} else {
+		fmt.Println(person["name"])
+	}
 }

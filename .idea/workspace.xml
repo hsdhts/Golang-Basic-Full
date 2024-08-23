@@ -5,18 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7653a6ff-1672-41ba-ba44-3a76bbfbb05e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database/database.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flags.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/os.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-initialization.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper/sayhello.go" beforeDir="false" afterPath="$PROJECT_DIR$/helper/sayhello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/import.go" beforeDir="false" afterPath="$PROJECT_DIR$/import.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pointer-method.go" beforeDir="false" afterPath="$PROJECT_DIR$/pointer-method.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anonymous-function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/any.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asterisk_operator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function_as_parameter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/named__return_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pointer_function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursive_function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variadic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/break.go" beforeDir="false" afterPath="$PROJECT_DIR$/break.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/for.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function-as-parameter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function-as-value.go" beforeDir="false" afterPath="$PROJECT_DIR$/function-as-value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function-parameter.go" beforeDir="false" afterPath="$PROJECT_DIR$/function-parameter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function-return-multiple-value.go" beforeDir="false" afterPath="$PROJECT_DIR$/function-return-multiple-value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function-return-value.go" beforeDir="false" afterPath="$PROJECT_DIR$/function-return-value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function.go" beforeDir="false" afterPath="$PROJECT_DIR$/function.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if-else.go" beforeDir="false" afterPath="$PROJECT_DIR$/if-else.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nill.go" beforeDir="false" afterPath="$PROJECT_DIR$/nill.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/switch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type-assertions.go" beforeDir="false" afterPath="$PROJECT_DIR$/type-assertions.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,49 +54,78 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2SmA3nXNBQ2rXnGTxHQbfSp6eiU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/FILE NGODING/Golang/src/golang-basic",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/hello-world/Golang/Golang-Basic-Full&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Go Build.go build golang-basic">
-    <configuration name="go build golang-basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-basic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="golang-basic" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/package-initialization.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build import.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Go Build.go build pointer_function.go">
+    <configuration name="go build asterisk_operator.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-basic" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="golang-basic" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/import.go" />
+      <filePath value="$PROJECT_DIR$/asterisk_operator.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build new.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-basic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/new.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pointer_function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-basic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/pointer_function.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-basic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/pointer.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build type-assertions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-basic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/type-assertions.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build golang-basic" />
-        <item itemvalue="Go Build.go build import.go" />
+        <item itemvalue="Go Build.go build pointer_function.go" />
+        <item itemvalue="Go Build.go build new.go" />
+        <item itemvalue="Go Build.go build asterisk_operator.go" />
+        <item itemvalue="Go Build.go build pointer.go" />
+        <item itemvalue="Go Build.go build type-assertions.go" />
       </list>
     </recent_temporary>
   </component>
@@ -91,8 +133,41 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/break.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/type-assertions.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

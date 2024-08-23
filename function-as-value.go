@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func getGoodBye(name string) string {
-	return "Good Bye" + name
+func sayGoodBy(hello string) string {
+	return "Hello" + hello
 }
 
 func main() {
-	sayGoodBye := getGoodBye
-	fmt.Println(sayGoodBye(" Husada"))
+	getSayGoodBy := sayGoodBy
+	fmt.Println(getSayGoodBy("selamat pagi"))
 }

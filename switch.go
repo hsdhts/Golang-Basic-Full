@@ -4,23 +4,23 @@ import "fmt"
 
 func main() {
 
-	name := "Budi"
+	name := "Husada"
 
 	switch name {
 	case "Husada":
 		fmt.Println("Hello Husada")
+	case "Eko":
+		fmt.Println("Hello Eko")
 	case "Budi":
-		fmt.Print("Hello Budi")
+		fmt.Println("Hello Budi")
 	default:
-		fmt.Print("Masukkan nama yang benar")
+		fmt.Println("Nama tidak ditemukan")
 	}
 
-	//switch with short statement
 	switch length := len(name); length > 5 {
 	case true:
-		fmt.Println("Karakter nama terlalu panjang")
+		fmt.Println("Nama lumayan panjang")
 	case false:
-		fmt.Println("Nama sudah sesuai")
+		fmt.Println("Nama valid")
 	}
-
 }

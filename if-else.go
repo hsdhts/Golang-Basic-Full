@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 
@@ -10,18 +8,18 @@ func main() {
 
 	if name == "Husada" {
 		fmt.Println("Hello Husada")
-	} else if name == "Joko" {
-		fmt.Println("Hello Joko")
+	} else if name == "Eko" {
+		fmt.Println("Hello Eko")
 	} else if name == "Budi" {
 		fmt.Println("Hello Budi")
 	} else {
-		fmt.Println("Masukkan nama yang benar!")
+		fmt.Println("Nama salah")
 	}
 
-	//if with short statement
+	//if wtih short statement
 	if length := len(name); length > 5 {
-		fmt.Println("Karakter nama terlalu panjang")
+		fmt.Println("Nama tidak valid")
 	} else {
-		fmt.Println("Nama sudah benar")
+		fmt.Println("Nama valid")
 	}
 }

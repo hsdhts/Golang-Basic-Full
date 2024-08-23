@@ -2,17 +2,12 @@ package main
 
 import "fmt"
 
-func getHello(name string) string {
-	if name == "" {
-		return "Hello Bro!"
-	} else {
-		return ("Hello" + name)
-	}
+func int(a int64, b int64) int64 {
+	result := a + b
+	return result
 }
 
 func main() {
-	result := getHello(" Husada")
-	fmt.Println(result)
-
-	fmt.Println(getHello(""))
+	sum := int(3, 5)
+	fmt.Println(sum)
 }

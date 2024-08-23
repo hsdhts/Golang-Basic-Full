@@ -2,21 +2,23 @@ package main
 
 import "fmt"
 
-func random() interface{} {
-	return 100
+func random() any {
+	return "Ups"
 }
 
 func main() {
 	var result interface{} = random()
 	//var resultString string = result.(string)
+	//var resultInt int64 = result.(int64)
 	//fmt.Println(resultString)
+	//fmt.Println(resultInt)
 
 	switch value := result.(type) {
 	case string:
-		fmt.Println("Value", value, "is string")
+		fmt.Println("String", value)
 	case int:
-		fmt.Println("Value", value, "is int")
+		fmt.Println("Int", value)
 	default:
-		fmt.Println("Unknown Type")
+		fmt.Println("Unknown", value)
 	}
 }

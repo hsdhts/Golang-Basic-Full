@@ -3,12 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	for i := 0; i < 10; i++ {
+	for nilai := 0; nilai < 10; nilai++ {
+		fmt.Println("Perulangan ke", nilai)
 
-		fmt.Println("Perulangan ke-", i)
-
-		if i == 5 {
+		if nilai == 5 {
 			break
 		}
+	}
+
+	// Todo: Mencetak angka ganjil
+	for angka := 1; angka < 20; angka++ {
+		if angka%2 == 0 {
+			continue
+		}
+
+		fmt.Println(angka)
 	}
 }
